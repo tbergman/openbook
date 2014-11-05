@@ -6,6 +6,7 @@
 		<link rel="shortcut icon" href="static/favicon.ico"/>
 		<meta name="Description" content="jazz real book open source project that produces beautiful jazz standards for musicians"/>
 		<meta name="Keywords" content="${attr.personal_fullname}, ${attr.personal_slug}, ${attr.project_name}, ${attr.project_keywords}"/>
+		${attr.project_google_analytics_snipplet}
 	</head>
 	<body>
 		<h1>Welcome to The ${attr.project_name} web site</h1>

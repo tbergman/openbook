@@ -1,2 +1,7 @@
 # template config file
 .attr.config
+
+# python stuff
+*.pyc
+*.pyo
+__pycache__
