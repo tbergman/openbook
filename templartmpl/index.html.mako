@@ -15,7 +15,7 @@
 		<h2>A demo for the impatient...</h2>
 		<!--iframe src="viewer/viewer.html" width="100%" height="1700"></iframe-->
 		<!-- <embed src="static/openbook.pdf" width="100%" height="1700"/>-->
-		<object data="static/openbook.pdf" width="100%" height="1700"/>
+		<object data="static/openbook.pdf" width="100%" height="1700"></object>
 		<!--embed style="height: 100%; width: 100%;" src="static/au_privave.svg" type="image/svg+xml"/-->
 		<!--img src="static/au_privave.png" title="Sample output from the ${attr.project_name} project in the form of an image"/-->
 		<p>You can download the latest version of the ${attr.project_name} from <a href="static/openbook.pdf">here</a>.</p>
