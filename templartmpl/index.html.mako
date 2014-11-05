@@ -105,8 +105,7 @@
 		</ul>
 		</p>
 		<p>
-		Copyright ${attr.personal_origin}, ${attr.project_copyright_years}
-		<br/>
+		Copyright ${attr.personal_fullname}, ${attr.project_copyright_years}
 		<a href="mailto:${attr.personal_email}">${attr.personal_email}</a>
 		</p>
 	</body>
