@@ -5,3 +5,6 @@
 *.pyc
 *.pyo
 __pycache__
+
+# stamp files that mark the generation of stuff
+*.stamp
