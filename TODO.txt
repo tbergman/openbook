@@ -1,1 +1,2 @@
 - find how to sync the project.ini file in this branch with the project.ini branch in the master branch.
+- print git shortlog or something on the page of openbook where I list contributions.
