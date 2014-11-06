@@ -100,6 +100,10 @@
 			</li>
 		</ul>
 		<p>
+			To donate to <b>${attr.project_name}</b> please use the following button:
+		</p>
+		${attr.project_paypal_donate_button_snipplet}
+		<p>
 			Copyright ${attr.personal_fullname}, ${attr.project_copyright_years}
 			<a href="mailto:${attr.personal_email}">${attr.personal_email}</a>
 		</p>
