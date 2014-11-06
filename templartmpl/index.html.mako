@@ -3,7 +3,7 @@
 	<!-- vim: set filetype=html : -->
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>OpenBook</title>
+		<title>${attr.project_name}</title>
 		<link rel="shortcut icon" href="static/favicon.ico"/>
 		<meta name="Description" content="jazz real book open source project that produces beautiful jazz standards for musicians"/>
 		<meta name="Keywords" content="${attr.personal_fullname}, ${attr.personal_slug}, ${attr.project_name}, ${attr.project_keywords}"/>
@@ -13,14 +13,10 @@
 		<h1>Welcome to The <b>${attr.project_name}</b> web site</h1>
 
 		<h2>A demo for the impatient...</h2>
-		<!--iframe src="viewer/viewer.html" width="100%" height="1700"></iframe-->
-		<!-- <embed src="static/openbook.pdf" width="100%" height="1700"/>-->
-		<object data="static/openbook.pdf" width="100%" height="1700"></object>
-		<!--embed style="height: 100%; width: 100%;" src="static/au_privave.svg" type="image/svg+xml"/-->
-		<!--img src="static/au_privave.png" title="Sample output from the <b>${attr.project_name}</b> project in the form of an image"/-->
+		<object data="static/openbook.pdf" type="application/pdf" width="100%" height="1700"></object>
 		<p>You can download the latest version of the <b>${attr.project_name}</b> from <a href="static/openbook.pdf">here</a>.</p>
 
-		<p>Openbook is a open source project to build a free, high quality "real book"
+		<p><b>${attr.project_name}</b> is an open source project to build a free, high quality "real book"
 		for Jazz musicians. A real book simply means a big book with lots of Jazz tunes or standards as they are more widely known. Open book will always remain free and is guarateed so by it's license. The goal of production is beautiful and lightweight postscript and PDF real books with Jazz tunes. The idea is that the end user can control the final output and decide if he/she wants lyrics, size of paper, transposition for trumpet, selection of tunes and more. In addition you can produce midi, mp3 and ogg outputs. The end user can also, obviously, modify add or remove tunes or use the tunes in <b>${attr.project_name}</b> as the basis of arrangements.</p>
 
 		<p>The project is developed by me, ${attr.personal_fullname}, and you can contact me at <a href="mailto:${attr.personal_email}">${attr.personal_email}</a>. Currently there are no other contributors but I am hoping that this will change. Anyone is welcome to contribute.</p>
@@ -100,7 +96,9 @@
 			</li>
 		</ul>
 		<p>
-			To donate to <b>${attr.project_name}</b> please use the following button:
+			I would appreciate donations so that I could use my time to work on <b>${attr.project_name}</b> more.
+			If you do donate and would like me to work on some specific tunes or features then be sure to mention them
+			in your donation remark on paypal.
 		</p>
 		${attr.project_paypal_donate_button_snipplet}
 		<p>
