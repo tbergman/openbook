@@ -12,6 +12,8 @@
 	<body>
 		<h1>Welcome to the <i>${attr.project_name}</i> web site</h1>
 
+		<p>current version is ${attr_more.project_version}</p>
+
 		<h2>A demo for the impatient...</h2>
 		<object data="static/openbook.pdf" type="application/pdf" width="100%" height="1700"></object>
 		<p>You can download the latest version of the <b>${attr.project_name}</b> from <a href="static/openbook.pdf">here</a>.</p>

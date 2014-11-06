@@ -1,4 +1,1 @@
 - find how to sync the project.ini file in this branch with the project.ini branch in the master branch.
-- the data that this branch (gh-pages) knows about as fast as last commit etc are from this branch.
-	the data that it wants to know about is from the master branch (last tag, etc).
-	how do I do this?
