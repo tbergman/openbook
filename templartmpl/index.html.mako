@@ -10,7 +10,7 @@
 		${attr.project_google_analytics_snipplet}
 	</head>
 	<body>
-		<h1>Welcome to The <b>${attr.project_name}</b> web site</h1>
+		<h1>Welcome to the <i>${attr.project_name}</i> web site</h1>
 
 		<h2>A demo for the impatient...</h2>
 		<object data="static/openbook.pdf" type="application/pdf" width="100%" height="1700"></object>
