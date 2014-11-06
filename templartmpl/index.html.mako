@@ -10,18 +10,18 @@
 		${attr.project_google_analytics_snipplet}
 	</head>
 	<body>
-		<h1>Welcome to The ${attr.project_name} web site</h1>
+		<h1>Welcome to The <b>${attr.project_name}</b> web site</h1>
 
 		<h2>A demo for the impatient...</h2>
 		<!--iframe src="viewer/viewer.html" width="100%" height="1700"></iframe-->
 		<!-- <embed src="static/openbook.pdf" width="100%" height="1700"/>-->
 		<object data="static/openbook.pdf" width="100%" height="1700"></object>
 		<!--embed style="height: 100%; width: 100%;" src="static/au_privave.svg" type="image/svg+xml"/-->
-		<!--img src="static/au_privave.png" title="Sample output from the ${attr.project_name} project in the form of an image"/-->
-		<p>You can download the latest version of the ${attr.project_name} from <a href="static/openbook.pdf">here</a>.</p>
+		<!--img src="static/au_privave.png" title="Sample output from the <b>${attr.project_name}</b> project in the form of an image"/-->
+		<p>You can download the latest version of the <b>${attr.project_name}</b> from <a href="static/openbook.pdf">here</a>.</p>
 
 		<p>Openbook is a open source project to build a free, high quality "real book"
-		for Jazz musicians. A real book simply means a big book with lots of Jazz tunes or standards as they are more widely known. Open book will always remain free and is guarateed so by it's license. The goal of production is beautiful and lightweight postscript and PDF real books with Jazz tunes. The idea is that the end user can control the final output and decide if he/she wants lyrics, size of paper, transposition for trumpet, selection of tunes and more. In addition you can produce midi, mp3 and ogg outputs. The end user can also, obviously, modify add or remove tunes or use the tunes in ${attr.project_name} as the basis of arrangements.</p>
+		for Jazz musicians. A real book simply means a big book with lots of Jazz tunes or standards as they are more widely known. Open book will always remain free and is guarateed so by it's license. The goal of production is beautiful and lightweight postscript and PDF real books with Jazz tunes. The idea is that the end user can control the final output and decide if he/she wants lyrics, size of paper, transposition for trumpet, selection of tunes and more. In addition you can produce midi, mp3 and ogg outputs. The end user can also, obviously, modify add or remove tunes or use the tunes in <b>${attr.project_name}</b> as the basis of arrangements.</p>
 
 		<p>The project is developed by me, ${attr.personal_fullname}, and you can contact me at <a href="mailto:${attr.personal_email}">${attr.personal_email}</a>. Currently there are no other contributors but I am hoping that this will change. Anyone is welcome to contribute.</p>
 
@@ -60,22 +60,22 @@
 		<p>Links to tools used by this project:</p>
 		<ul>
 			<li>
-			The git tool used as a source control system for ${attr.project_name} is <a title="git" href="http://git-scm.com/">here</a>
+			The git tool used as a source control system for <b>${attr.project_name}</b> is <a title="git" href="http://git-scm.com/">here</a>
 			</li>
 			<li>
-			The GNU make system used to build ${attr.project_name} is <a title="GNU make" href="http://www.gnu.org/s/make/">here</a>
+			The GNU make system used to build <b>${attr.project_name}</b> is <a title="GNU make" href="http://www.gnu.org/s/make/">here</a>
 			</li>
 			<li>
-			The python scripting language that is used to script ${attr.project_name} is <a title="python" href="http://python.org/">here</a>
+			The python scripting language that is used to script <b>${attr.project_name}</b> is <a title="python" href="http://python.org/">here</a>
 			</li>
 			<li>
-			The mako templating engine for python that is used in ${attr.project_name} is <a title="mako" href="http://www.makotemplates.org/">here</a>
+			The mako templating engine for python that is used in <b>${attr.project_name}</b> is <a title="mako" href="http://www.makotemplates.org/">here</a>
 			</li>
 			<li>
 			The lilypond language and compiler used to develop the tunes is <a title="lilypond" href="http://lilypond.org/">here</a>
 			</li>
 			<li>
-			The timidity tool used in ${attr.project_name} to convert from midi to wav and ogg is <a title="timidity++" href="http://timidity.sourceforge.net/">here</a>
+			The timidity tool used in <b>${attr.project_name}</b> to convert from midi to wav and ogg is <a title="timidity++" href="http://timidity.sourceforge.net/">here</a>
 			</li>
 			<li>
 			The lame tool used to encode midi to mp3 is <a title="lame" href="http://lame.sourceforge.net/">here</a>
@@ -84,16 +84,16 @@
 		<p>Some related project links:</p>
 		<ul>
 			<li>
-			The ${attr.project_name} github project is <a title="${attr.project_name} github project" href="${attr.project_website_source}">here</a>
+			The <b>${attr.project_name}</b> github project is <a title="<b>${attr.project_name}</b> github project" href="${attr.project_website_source}">here</a>
 			</li>
 			<li>
 			The web site for the project is <a title="open book is a real book for Jazz musicians" href="${attr.project_website}">here</a>
 			</li>
 			<li>
-			The latest stable pdf coming out of the ${attr.project_name} project is <a href="static/openbook.pdf">here</a>
+			The latest stable pdf coming out of the <b>${attr.project_name}</b> project is <a href="static/openbook.pdf">here</a>
 			</li>
 			<li>
-			The latest stable postscript coming out of the ${attr.project_name} project is <a href="static/openbook.ps">here</a>
+			The latest stable postscript coming out of the <b>${attr.project_name}</b> project is <a href="static/openbook.ps">here</a>
 			</li>
 			<li>
 			The latest stable lilypond file from which the pdf and postscript were created is <a href="static/openbook.ly">here</a>
