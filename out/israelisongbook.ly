@@ -250,9 +250,9 @@ endChords={}
 				\null
 				\null
 				\fill-line { \small "Git tag: 145" }
-				\fill-line { \small "Git describe: 145-7-g3c76c4e" }
-				\fill-line { \small "Git commits: 1341" }
-				\fill-line { \small "Build date: 05:15:38 09-11-2014" }
+				\fill-line { \small "Git describe: 145-8-g2e23c9b" }
+				\fill-line { \small "Git commits: 1342" }
+				\fill-line { \small "Build date: 05:20:08 09-11-2014" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.16.0-24-lowlatency" }
