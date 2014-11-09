@@ -250,9 +250,9 @@ endChords={}
 				\null
 				\null
 				\fill-line { \small "Git tag: 145" }
-				\fill-line { \small "Git describe: 145-4-g13a731f" }
-				\fill-line { \small "Git commits: 1338" }
-				\fill-line { \small "Build date: 09:31:01 07-11-2014" }
+				\fill-line { \small "Git describe: 145-7-g3c76c4e" }
+				\fill-line { \small "Git commits: 1341" }
+				\fill-line { \small "Build date: 05:13:56 09-11-2014" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.16.0-24-lowlatency" }
@@ -405,7 +405,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo Allegro 4 = 168
 	\time 4/4
 	\key c \major
@@ -640,7 +639,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo Andante 4 = 88
 	\time 2/2
 	\key bes \major
@@ -829,7 +827,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo Moderato 4 = 120
 	\time 4/4
 	\key c \major
@@ -1042,10 +1039,9 @@ endChords={}
 
 
 {
-	\key c \major
-	\time 4/4
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Presto" 4 = 196
+	\time 4/4
+	\key c \major
 
 	\partial 4 e4 |
 
@@ -1298,7 +1294,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo Allegro 4 = 130
 	\time 4/4
 	\key f \major
@@ -1497,7 +1492,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key f \major
@@ -1687,7 +1681,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key ees \major
@@ -1898,10 +1891,9 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
-	\key c \major
 	\time 4/4
+	\key c \major
 
 	\partial 4 e'4 |
 
@@ -2077,7 +2069,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 3/4
 	\key c \major
@@ -2286,7 +2277,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 168
 	\time 4/4
 	\key c \major
@@ -2486,7 +2476,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 168
 	\time 4/4
 	\key c \major
@@ -2698,7 +2687,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key aes \major
@@ -2896,7 +2884,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key d \minor
@@ -3118,7 +3105,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 88
 	\time 3/4
 	\key f \major
@@ -3324,7 +3310,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 88
 	\time 2/2
 	\key ees \major
@@ -3518,7 +3503,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 88
 	\time 4/4
 	\key c \minor
@@ -3750,7 +3734,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 76
 	\time 4/4
 	\key ees \major
@@ -3983,7 +3966,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Prestissimo" 4 = 220
 	\time 4/4
 	\key f \major
@@ -4161,10 +4143,9 @@ endChords={}
 
 
 {
+	\tempo "Andante" 4 = 76
 	\time 4/4
 	\key f \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Andante" 4 = 76
 
 %% part "A"
 	a'8 g f d c2 | r8 d f bes d d4 c8 | d2 a | r1 |
@@ -4406,10 +4387,9 @@ endChords={}
 
 
 {
+	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key e \minor
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Allegro" 4 = 130
 
 	\partial 2. e4 fis g |
 
@@ -4605,7 +4585,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 100
 	\time 2/2
 	\key c \major
@@ -4814,7 +4793,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 150
 	\time 4/4
 	\key c \minor
@@ -5030,7 +5008,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key c \major
@@ -5164,7 +5141,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key bes \major
@@ -5316,7 +5292,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 88
 	\time 4/4
 	\key a \minor
@@ -5511,7 +5486,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 168
 	\time 3/4
 	\key g \major
@@ -5741,7 +5715,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 80
 	\time 4/4
 	\key des \major
@@ -5966,10 +5939,9 @@ endChords={}
 
 
 {
+	\tempo "Moderato" 4 = 116
 	\time 4/4
 	\key f \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Moderato" 4 = 116
 
 	\repeat volta 2 {
 
@@ -6169,7 +6141,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 4/4
 	\key c \major
@@ -6359,7 +6330,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Prestissimo" 4 = 220
 	\time 2/2
 	\key f \minor
@@ -6586,7 +6556,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Presto" 4 = 200
 	\time 2/2
 	\key f \major
@@ -6813,7 +6782,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key c \major
@@ -7020,10 +6988,9 @@ endChords={}
 
 
 {
+	\tempo "Moderato" 4 = 100
 	\time 4/4
 	\key f \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Moderato" 4 = 100
 
 %% part "A"
 	a'4 a8 a a a4 a8 | a4 a8 a a a4 a8 | a f f f~ f2~ | f1 |
@@ -7222,7 +7189,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andrante Moderato" 4 = 88
 	\time 4/4
 	\key ees \major
@@ -7414,7 +7380,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key f \major
@@ -7618,7 +7583,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Adagio" 4 = 72
 	\time 4/4
 	\key g \major
@@ -7829,10 +7793,10 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key f \major
+
 %	list of instruments can be found at
 %	http://lilypond.org/doc/v2.11/Documentation/user/lilypond/MIDI-instruments#MIDI-instruments
 %	\set Staff.midiInstrument = #"flute"
@@ -8024,10 +7988,9 @@ endChords={}
 
 
 {
+	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key aes \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Allegro" 4 = 130
 
 %% part "A"
 	r2 \tuplet 3/2 { g''8 aes g } f e | ees! des c bes-4 a-3 c,-1 ees f |
@@ -8197,10 +8160,9 @@ endChords={}
 
 
 {
+	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key c \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Allegro" 4 = 130
 
 %% part "A"
 	\repeat volta 2 {
@@ -8417,7 +8379,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Adagio" 4 = 72
 	\time 4/4
 	\key f \major
@@ -8629,10 +8590,9 @@ endChords={}
 
 
 {
+	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key c \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Allegro" 4 = 130
 
 %% part "A"
 	\repeat volta 2 {
@@ -8816,10 +8776,9 @@ endChords={}
 
 
 {
+	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key bes \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Allegro" 4 = 130
 
 	\partial 8 f8 |
 
@@ -8991,10 +8950,9 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 108
-	\key c \major
 	\time 4/4
+	\key c \major
 
 %% part "A"
 	\repeat volta 2 {
@@ -9206,7 +9164,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key c \major
@@ -9379,7 +9336,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key f \major
@@ -9599,7 +9555,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key c \major
@@ -9795,7 +9750,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key a \minor
@@ -9984,7 +9938,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Prestissimo" 4 = 240
 	\time 4/4
 	\key c \major
@@ -10166,7 +10119,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 160
 	\time 4/4
 	\key c \major
@@ -10330,7 +10282,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 160
 	\time 4/4
 	\key c \major
@@ -10534,7 +10485,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 100
 	\time 4/4
 	\key bes \major
@@ -10722,10 +10672,9 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
-	\key f \major
 	\time 4/4
+	\key f \major
 
 %% part "A"
 	r8. c'16[ d8. c16] aes8.[ g16 f8. d16] | f4 f8 aes~ aes r r4 |
@@ -10930,7 +10879,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 160
 	\time 4/4
 	\key f \major
@@ -11132,7 +11080,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 2/2
 	\key f \major
@@ -11339,7 +11286,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key g \major
@@ -11558,7 +11504,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key f \major
@@ -11751,7 +11696,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 88
 	\time 4/4
 	\key ees \major
@@ -11950,7 +11894,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key g \major
@@ -12175,7 +12118,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key d \minor
@@ -12386,7 +12328,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 4/4
 	\key g \major
@@ -12573,7 +12514,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Prestissimo" 4 = 240
 	\time 2/2
 	\key c \major
@@ -12784,10 +12724,9 @@ endChords={}
 
 
 {
+	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key c \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Allegro" 4 = 130
 
 	\partial 2 e4 f |
 
@@ -13019,7 +12958,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key g \major
@@ -13229,7 +13167,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 4/4
 	\key bes \major
@@ -13390,7 +13327,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 160
 	\time 4/4
 	\key f \major
@@ -13587,10 +13523,9 @@ endChords={}
 
 
 {
+	\tempo "Adagio" 4 = 76
 	\time 4/4
 	\key ees \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Adagio" 4 = 76
 
 	\repeat volta 2 {
 
@@ -13815,7 +13750,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 160
 	\time 2/2
 	\key ees \major
@@ -14020,7 +13954,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 150
 	\time 4/4
 	\key f \major
@@ -14229,7 +14162,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key ees \major
@@ -14412,7 +14344,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key g \major
@@ -14619,7 +14550,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key g \major
@@ -14824,7 +14754,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key f \major
@@ -15014,7 +14943,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 108
 	\time 4/4
 	\key ees \major
@@ -15219,7 +15147,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 168
 	\time 4/4
 	\key g \major
@@ -15413,7 +15340,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key c \major
@@ -15621,7 +15547,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 4/4
 	\key g \major
@@ -15830,7 +15755,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key bes \major
@@ -16039,7 +15963,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key f \minor
@@ -16255,7 +16178,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 88
 	\time 4/4
 	\key ees \major
@@ -16463,7 +16385,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key ees \major
@@ -16656,7 +16577,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 3/4
 	\key g \major
@@ -16873,10 +16793,9 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 108
-	\key bes \major
 	\time 4/4
+	\key bes \major
 
 	\partial 4 f4 |
 
@@ -17076,10 +16995,9 @@ endChords={}
 
 
 {
+	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key c \minor
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Allegro" 4 = 130
 
 %% part "A"
 	c2 d4 ees | d4. ees8 d2 | c2 d4 ees | d4. ees8 d2 |
@@ -17281,7 +17199,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 100
 	\time 2/2
 	\key c \major
@@ -17501,7 +17418,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 100
 	\time 2/2
 	\key c \major
@@ -17705,10 +17621,9 @@ endChords={}
 
 
 {
+	\tempo "Moderato" 4 = 100
 	\time 4/4
 	\key f \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Moderato" 4 = 100
 
 	\partial 4 c4 |
 
@@ -17906,7 +17821,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 110
 	\time 4/4
 	\key d \minor
@@ -18100,7 +18014,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 2/2
 	\key g \major
@@ -18285,7 +18198,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key c \major
@@ -18496,7 +18408,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Presto" 4 = 190
 	\time 4/4
 	\key f \major
@@ -18661,7 +18572,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 88
 	\time 4/4
 	\key ees \major
@@ -18844,7 +18754,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 144
 	\time 4/4
 	\key f \major
@@ -19047,7 +18956,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 128
 	\time 4/4
 	\key g \minor
@@ -19209,7 +19117,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key bes \major
@@ -19410,7 +19317,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 168
 	\time 2/2
 	\key g \major
@@ -19600,7 +19506,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 108
 	\time 4/4
 	\key f \minor
@@ -19783,7 +19688,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Presto" 4 = 200
 	\time 4/4
 	\key g \major
@@ -19956,10 +19860,9 @@ endChords={}
 
 % the tune was turned into 8'th notes instead of triplets.
 {
+	\tempo "Adagio" 4 = 76
 	\time 4/4
 	\key f \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Adagio" 4 = 76
 
 %% part "A"
 	r8 c d e f g a c | a4 g8 f e d4. | r8 c d e f g a c | d4 c8 bes a g4. |
@@ -20155,7 +20058,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 88
 	\time 4/4
 	\key aes \major
@@ -20337,7 +20239,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 4/4
 	\key c \major
@@ -20528,7 +20429,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 100
 	\time 2/2
 	\key g \major
@@ -20961,7 +20861,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key c \major
@@ -21162,7 +21061,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key f \minor
@@ -21307,7 +21205,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key c \major
@@ -21466,7 +21363,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 3/4
 	\key bes \major
@@ -21721,10 +21617,9 @@ endChords={}
 
 
 {
+	\tempo "Andante" 4 = 92
 	\time 4/4
 	\key aes \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Andante" 4 = 92
 
 %% part "A"
 	\repeat volta 2 {
@@ -21959,7 +21854,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 80
 	\time 4/4
 	\key ees \major
@@ -22184,7 +22078,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Presto" 4 = 200
 	\time 4/4
 	\key c \major
@@ -22340,7 +22233,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key bes \major
@@ -22537,7 +22429,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 80
 	\time 2/2
 	\key g \major
@@ -22743,7 +22634,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 4/4
 	\key c \minor
@@ -22918,7 +22808,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 88
 	\time 2/2
 	\key f \major
@@ -23126,7 +23015,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Moderato" 4 = 108
 	\time 2/2
 	\key a \minor
@@ -23323,7 +23211,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 5/4
 	\key d \minor
@@ -23489,7 +23376,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 168
 	\time 4/4
 	\key c \major
@@ -23699,7 +23585,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 3/4
 	\key ees \major
@@ -23895,7 +23780,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 90
 	\time 2/2
 	\key c \major
@@ -24126,7 +24010,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 2/2
 	\key f \major
@@ -24372,7 +24255,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 76
 	\time 4/4
 	\key ees \major
@@ -24605,10 +24487,9 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Presto" 4 = 196
-	\key ees \major
 	\time 4/4
+	\key ees \major
 
 	\partial 4 bes4 |
 
@@ -24810,7 +24691,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante Moderato" 4 = 88
 	\time 4/4
 	\key ees \major
@@ -25005,7 +24885,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key g \major
@@ -25205,10 +25084,9 @@ endChords={}
 
 
 {
+	\tempo "Adagio" 4 = 66
 	\time 4/4
 	\key g \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Adagio" 4 = 66
 
 %% Intro
 	\partial 8 b8 |
@@ -25427,7 +25305,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key f \major
@@ -25671,7 +25548,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key ees \major
@@ -25870,7 +25746,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key g \major
@@ -26121,10 +25996,9 @@ endChords={}
 
 
 {
+	\tempo "Allegro" 4 = 120
 	\time 4/4
 	\key ees \major
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Allegro" 4 = 120
 
 %% part "Intro"
 	\partial 8*7 ees8 ees ees ees4 ees8 g~ |
@@ -26321,7 +26195,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Presto" 4 = 200
 	\time 2/2
 	\key g \major
@@ -26502,7 +26375,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key g \major
@@ -26688,7 +26560,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Presto" 4 = 200
 	\time 3/4
 	\key ees \major
@@ -26898,10 +26769,9 @@ endChords={}
 
 
 {
-	\key c \major
-	\time 4/4
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
+	\time 4/4
+	\key c \major
 
 %% part "A"
 	ees'1\p\<~ | ees4\! f,8 f <aes c> ( <bes d>4-. ) f8~ | f1~ | f2 r |
@@ -27054,7 +26924,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 76
 	\time 2/2
 	\key f \major
@@ -27271,7 +27140,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Andante" 4 = 76
 	\time 4/4
 	\key f \major
@@ -27473,7 +27341,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo Andante 4 = 88
 	\time 4/4
 	\key ees \major

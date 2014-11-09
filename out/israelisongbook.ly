@@ -250,9 +250,9 @@ endChords={}
 				\null
 				\null
 				\fill-line { \small "Git tag: 145" }
-				\fill-line { \small "Git describe: 145-4-g13a731f" }
-				\fill-line { \small "Git commits: 1338" }
-				\fill-line { \small "Build date: 09:32:46 07-11-2014" }
+				\fill-line { \small "Git describe: 145-7-g3c76c4e" }
+				\fill-line { \small "Git commits: 1341" }
+				\fill-line { \small "Build date: 05:15:38 09-11-2014" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.16.0-24-lowlatency" }
@@ -565,7 +565,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key a \major
@@ -938,11 +937,11 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
-	\set Staff.midiInstrument = #"flute"
 	\time 4/4
 	\key d \minor
+
+	\set Staff.midiInstrument = #"flute"
 
 	\partial 4 f8 e |
 
@@ -1144,7 +1143,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key c \minor
@@ -1488,7 +1486,6 @@ endChords={}
 
 
 {
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
 	\tempo "Allegro" 4 = 160
 	\time 4/4
 	\key f \minor
@@ -1731,10 +1728,9 @@ endChords={}
 
 
 {
+	\tempo "Moderato" 4 = 112
 	\time 3/4
 	\key a \minor
-%% https://veltzer.net/blog/blog/2010/08/14/musical-tempo-table/
-	\tempo "Moderato" 4 = 112
 
 	\partial 4 a'8 e |
 
