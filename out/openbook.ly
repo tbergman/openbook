@@ -250,11 +250,11 @@ endChords={}
 				\null
 				\null
 				\fill-line { \small "Git tag: 145" }
-				\fill-line { \small "Git describe: 145-15-ge1ecf90" }
-				\fill-line { \small "Git commits: 1349" }
-				\fill-line { \small "Build date: 05:41:50 12-11-2014" }
+				\fill-line { \small "Git describe: 145-16-ga480500" }
+				\fill-line { \small "Git commits: 1350" }
+				\fill-line { \small "Build date: 11:52:08 12-11-2014" }
 				\fill-line { \small "Build user: mark" }
-				\fill-line { \small "Build host: fermat" }
+				\fill-line { \small "Build host: abel" }
 				\fill-line { \small "Build kernel: Linux 3.16.0-24-lowlatency" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
 				\fill-line { \small "Number of tunes: 135" }
