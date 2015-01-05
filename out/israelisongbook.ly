@@ -239,7 +239,7 @@ endChords={}
 				\fill-line {
 					\huge \bold \concat {
 						"Typesetting copyright: © 2011-"
-						2014
+						2015
 						" Mark Veltzer "
 						"<" \with-url #"mailto:mark.veltzer@gmail.com" mark.veltzer@gmail.com ">"
 					}
@@ -249,10 +249,10 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 147" }
-				\fill-line { \small "Git describe: 147" }
-				\fill-line { \small "Git commits: 1365" }
-				\fill-line { \small "Build date: 12:39:28 23-12-2014" }
+				\fill-line { \small "Git tag: 148" }
+				\fill-line { \small "Git describe: 148" }
+				\fill-line { \small "Git commits: 1368" }
+				\fill-line { \small "Build date: 07:04:08 05-01-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.16.0-28-lowlatency" }

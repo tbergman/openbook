@@ -239,7 +239,7 @@ endChords={}
 				\fill-line {
 					\huge \bold \concat {
 						"Typesetting copyright: © 2011-"
-						2014
+						2015
 						" Mark Veltzer "
 						"<" \with-url #"mailto:mark.veltzer@gmail.com" mark.veltzer@gmail.com ">"
 					}
@@ -249,15 +249,15 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 147" }
-				\fill-line { \small "Git describe: 147" }
-				\fill-line { \small "Git commits: 1365" }
-				\fill-line { \small "Build date: 12:37:45 23-12-2014" }
+				\fill-line { \small "Git tag: 148" }
+				\fill-line { \small "Git describe: 148" }
+				\fill-line { \small "Git commits: 1368" }
+				\fill-line { \small "Build date: 07:02:26 05-01-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.16.0-28-lowlatency" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
-				\fill-line { \small "Number of tunes: 136" }
+				\fill-line { \small "Number of tunes: 137" }
 				\null
 				\null
 				\null
@@ -5152,6 +5152,231 @@ endChords={}
 }
 
 }
+	>>
+	\layout {
+	}
+}
+
+
+\noPageBreak
+\markup \column {
+%% just a little space
+	\null
+	\fill-line {
+		\smaller \smaller { "-- help me fill it out this copyright notice --" }
+	}
+	\fill-line {
+		\smaller \smaller { "Typeset by Mark Veltzer <mark@veltzer.net>" }
+	}
+}
+
+
+
+}
+
+
+\bookpart {
+
+% this causes the variables to be defined...
+
+
+
+
+
+
+
+
+
+
+
+
+
+% now play with the variables that depend on language
+
+
+
+% calculate the tag line
+
+
+% calculate the typesetby
+
+
+
+
+\tocItem \markup "Blue Room / Richard Rodgers, Lorenz Hart"
+
+
+
+
+
+% taken from "/usr/share/lilypond/2.12.3/ly/titling-init.ly"
+\markup {
+	\column {
+		\override #'(baseline-skip . 3.5)
+		\column {
+			\huge \larger \bold
+			\fill-line { \larger "Blue Room" }
+			\fill-line { \smaller \bold "" }
+			\fill-line {
+				"Lyrics by Lorenz Hart"
+				"Music by Richard Rodgers"
+			}
+			\fill-line {
+				"Jazz"
+				""
+			}
+		}
+	}
+}
+\noPageBreak
+
+
+% include the preparatory stuff, if there is any
+
+% calculate the vars
+
+
+
+% score for printing
+\score {
+	<<
+\new ChordNames="Chords"
+	\with {
+		\remove "Bar_engraver"
+	}
+	
+
+
+\chordmode {
+	\startChords
+	\startSong
+
+	\myMark "A"
+	\startPart
+	\repeat volta 2 {
+		f2:6 d:m7 | g:m7 c:7 | f:maj7 d:m7 | g:m7 c:7 | \myEndLine
+		f2.:maj7 f4:7 | bes2:maj7 g:m7 |
+	} \alternative {
+		{
+			f:6 g:7 | g:m7 c:7 | \myEndLineVoltaNotLast
+		}
+		{
+			f g4:m7 c:7 | f1 | \myEndLineVoltaLast
+		}
+	}
+	\endPart
+
+	\myMark "B"
+	\startPart
+	c1*2:7 | f:maj7 | \myEndLine
+	c1:7 | g2:m7 c:7 | d:m7 g:7 | g:m7 c:7 | \myEndLine
+	\endPart
+
+	\myMark "A"
+	\startPart
+	f1:6 | c:7 | f2:maj7 d:m7 | g:m7 c:7 | \myEndLine
+	f2.:maj7 f4:7 | bes2:maj7 g:m7 | f g4:m7 c:7 | f1 | \myEndLine
+	\endPart
+
+	\endSong
+	\endChords
+}
+
+
+
+
+% this thing will only engrave voltas. This is required to put the volta under the chords.
+% No great harm will happen if you don't put it, only the voltas will be above the chords.
+%\new Staff \with {
+%	\consists "Volta_engraver"
+%}
+\new Staff="Melody" {
+\new Voice="Voice"
+	\relative c' 
+
+
+
+{
+	\tempo "Allegro" 4 = 130
+	\time 4/4
+	\key f \major
+
+%% part "A"
+	\repeat volta 2 {
+		c4 f2 d4 | c g'2 d4 | c a'2 d,4 | c bes'2 d,4 |
+		c c' c c | c8 d bes2 g4 |
+	} \alternative {
+		{
+			f f f8 g a4 | c,2. r4 |
+		}
+		{
+			f f f8 g a g | f2. r4 |
+		}
+	}
+
+%% part "B"
+	e4 f g a | bes c d e | r f f8 e d4 | c2 d |
+	r4 e e8 d c4 | bes2 c | r4 a a8 g f4 | c2. r4 |
+
+%% part "A"
+	c4 f2 d4 | c g'2 d4 | c a'2 d,4 | c bes'2 d,4 |
+	c c' c c | c8 f bes,2 a8 g | f4 f f8 g a g | f1 |
+
+}
+
+
+
+}
+\new Lyrics="Lyrics" \lyricsto "Voice"
+	
+
+
+
+
+% this version of the lyrics is from the internet adjusted for the real book.
+\lyricmode {
+
+%% part "A"
+	We'll have a blue room,
+	A new room,
+	For two room,
+	Where ev' -- ry day's a ho -- li -- day
+	Be -- cause you're mar -- ried to me.
+
+	_ _ _ _ _ _ _
+
+%% part "B"
+	We will thrive on,
+	Keep a -- live on,
+	Just not -- hing but kis -- ses,
+	With Mis -- ter and Mis -- sus
+	On lit -- tle blue chairs.
+
+%% part "A"
+	You sew your trous -- seau,
+	And Ro -- bin -- son Cru -- soe
+	Is not so far from world -- ly cares
+	As our blue room far a -- way up -- stairs.
+}
+
+
+\new Lyrics="Lyrics" \lyricsto "Voice"
+	
+
+
+
+
+
+\lyricmode {
+
+%% part "A"
+	Not like a ball -- room,
+	A small room,
+	A hall room,
+	Where I can smoke my pipe a -- way
+	With _ _ _ _ _ _ your wee head u -- pon my knee.
+}
+
 	>>
 	\layout {
 	}
