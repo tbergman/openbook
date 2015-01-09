@@ -101,6 +101,7 @@ myChordDefinitions={
 %%<c e g b>-\markup { "maj7" }
 	<c e gis bes d'>-\markup { \super { "9 " \sharp "5" } }
 	<c e g bes d' a'>-\markup \super {13}
+	<c e g bes d' fis'>-\markup { \super { "9 " \sharp "11" } }
 }
 myChordExceptions=#(append
 	(sequential-music-to-chord-exceptions myChordDefinitions #t)
@@ -249,10 +250,10 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 150" }
-				\fill-line { \small "Git describe: 150" }
-				\fill-line { \small "Git commits: 1371" }
-				\fill-line { \small "Build date: 07:08:20 07-01-2015" }
+				\fill-line { \small "Git tag: 151" }
+				\fill-line { \small "Git describe: 151" }
+				\fill-line { \small "Git commits: 1372" }
+				\fill-line { \small "Build date: 16:51:49 09-01-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.16.0-28-lowlatency" }
