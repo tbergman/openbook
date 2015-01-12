@@ -250,10 +250,10 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 151" }
-				\fill-line { \small "Git describe: 151" }
-				\fill-line { \small "Git commits: 1372" }
-				\fill-line { \small "Build date: 16:50:06 09-01-2015" }
+				\fill-line { \small "Git tag: 153" }
+				\fill-line { \small "Git describe: 153" }
+				\fill-line { \small "Git commits: 1374" }
+				\fill-line { \small "Build date: 22:33:08 12-01-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.16.0-28-lowlatency" }
@@ -6123,6 +6123,10 @@ endChords={}
 
 
 
+
+
+
+
 % now play with the variables that depend on language
 
 
@@ -6217,6 +6221,10 @@ endChords={}
 
 
 
+
+
+
+
 % this thing will only engrave voltas. This is required to put the volta under the chords.
 % No great harm will happen if you don't put it, only the voltas will be above the chords.
 %\new Staff \with {
@@ -6248,14 +6256,18 @@ endChords={}
 
 %% part "B"
 	\key d \major
-	r8. d16 e8. fis16 a8 a4 a8 | d8 d4 fis,8 a8 a4 g8 | fis8 fis4 d8 e4 cis8 a~ | a2~ a8 r8 r4 |
+	r8. d16 e8. fis16 a8 a4 a8 | d d4 fis, a8 a4 g8 | fis fis4 d8 e4 cis8 a~ | a2~ a8 r r4 |
 	\key c \major
-	r8. d16 e8. f16 a8 a4 g8 | e'8 e4 b8 d8 d4 a8 | c8 c4 a8 b8 b4 g8 | e4 ees d bes'^\markup {D.C. al Coda} |
+	r8. d16 e8. f16 a8 a4 g8 | e' e4 b8 d d4 a8 | c c4 a8 b b4 g8 | e4 ees d bes'^\markup {D.C. al Coda} |
 
 %% part "Coda"
 	\key des \major
 	des,1 |
 }
+
+
+
+
 
 
 
@@ -6286,6 +6298,10 @@ endChords={}
 
 
 
+
+
+
+
 \new Lyrics="Lyrics" \lyricsto "Voice"
 	
 
@@ -6301,6 +6317,10 @@ endChords={}
 	I tell you I mean it,
 	I'm all for you, Bod -- y And _ Soul!
 }
+
+
+
+
 
 
 \new Lyrics="Lyrics" \lyricsto "Voice"
@@ -6326,6 +6346,10 @@ endChords={}
 %% part "Coda"
 	Soul!
 }
+
+
+
+
 
 	>>
 	\layout {
