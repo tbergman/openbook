@@ -250,13 +250,13 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 153" }
-				\fill-line { \small "Git describe: 153" }
-				\fill-line { \small "Git commits: 1374" }
-				\fill-line { \small "Build date: 22:34:52 12-01-2015" }
+				\fill-line { \small "Git tag: 154" }
+				\fill-line { \small "Git describe: 154" }
+				\fill-line { \small "Git commits: 1375" }
+				\fill-line { \small "Build date: 07:43:04 18-01-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
-				\fill-line { \small "Build kernel: Linux 3.16.0-28-lowlatency" }
+				\fill-line { \small "Build kernel: Linux 3.16.0-29-lowlatency" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
 				\fill-line { \small "Number of tunes: 9" }
 				\null
@@ -326,7 +326,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "איך הוא שר" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"מילים ולחן: דני רובס"
@@ -448,7 +447,7 @@ endChords={}
 		\smaller \smaller { "-- עיזרו לי למלא את שורת זכויות היוצרים הזו --" }
 	}
 	\fill-line {
-		\smaller \smaller { "תווי על ידי מרק ולצר <mark.veltzer@gmail.com>" }
+		\smaller \smaller { "Typeset by מרק ולצר <mark.veltzer@gmail.com>" }
 	}
 }
 
@@ -497,7 +496,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "איך זה שכוכב" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"מלים: נתן זך"
 				"לחן: מתי כספי"
@@ -622,7 +620,7 @@ endChords={}
 		\smaller \smaller { "-- עיזרו לי למלא את שורת זכויות היוצרים הזו --" }
 	}
 	\fill-line {
-		\smaller \smaller { "תווי על ידי מרק ולצר <mark.veltzer@gmail.com>" }
+		\smaller \smaller { "Typeset by מרק ולצר <mark.veltzer@gmail.com>" }
 	}
 }
 
@@ -669,7 +667,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "גשם" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"מלים: יעקב גלעד"
 				"לחן: יחיאל אמסלם"
@@ -807,7 +804,7 @@ endChords={}
 		\smaller \smaller { "-- עיזרו לי למלא את שורת זכויות היוצרים הזו --" }
 	}
 	\fill-line {
-		\smaller \smaller { "תווי על ידי מרק ולצר <mark.veltzer@gmail.com>" }
+		\smaller \smaller { "Typeset by מרק ולצר <mark.veltzer@gmail.com>" }
 	}
 }
 
@@ -857,7 +854,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "הרדופים ליד החוף" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"מלים: נתן יונתן"
 				"לחן: שלמה ארצי"
@@ -1030,7 +1026,7 @@ endChords={}
 		\smaller \smaller { "-- עיזרו לי למלא את שורת זכויות היוצרים הזו --" }
 	}
 	\fill-line {
-		\smaller \smaller { "תווי על ידי מרק ולצר <mark.veltzer@gmail.com>" }
+		\smaller \smaller { "Typeset by מרק ולצר <mark.veltzer@gmail.com>" }
 	}
 }
 
@@ -1079,7 +1075,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "היא חזרה בתשובה" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"מלים: יעקב רוטבליט"
 				"לחן: מתי כספי"
@@ -1174,7 +1169,7 @@ endChords={}
 		\smaller \smaller { "-- עיזרו לי למלא את שורת זכויות היוצרים הזו --" }
 	}
 	\fill-line {
-		\smaller \smaller { "תווי על ידי מרק ולצר <mark.veltzer@gmail.com>" }
+		\smaller \smaller { "Typeset by מרק ולצר <mark.veltzer@gmail.com>" }
 	}
 }
 
@@ -1222,7 +1217,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "לא יכולתי לעשות כלום" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"מלים: יונה וולך"
 				"לחן: אילן וירצברג"
@@ -1368,7 +1362,7 @@ endChords={}
 		\smaller \smaller { "-- עיזרו לי למלא את שורת זכויות היוצרים הזו --" }
 	}
 	\fill-line {
-		\smaller \smaller { "תווי על ידי מרק ולצר <mark.veltzer@gmail.com>" }
+		\smaller \smaller { "Typeset by מרק ולצר <mark.veltzer@gmail.com>" }
 	}
 }
 
@@ -1418,7 +1412,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "נח" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"מלים: יורם טהרלב"
 				"לחן: מתי כספי"
@@ -1597,7 +1590,7 @@ endChords={}
 		\smaller \smaller { "-- עיזרו לי למלא את שורת זכויות היוצרים הזו --" }
 	}
 	\fill-line {
-		\smaller \smaller { "תווי על ידי מרק ולצר <mark.veltzer@gmail.com>" }
+		\smaller \smaller { "Typeset by מרק ולצר <mark.veltzer@gmail.com>" }
 	}
 }
 
@@ -1648,7 +1641,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "סליחות" }
 			\fill-line { \large \smaller \bold \larger "באת אלי" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"מלים: לאה גולדברג"
 				"לחן: עודד לרר"
@@ -1814,7 +1806,7 @@ endChords={}
 		\smaller \smaller { "-- עיזרו לי למלא את שורת זכויות היוצרים הזו --" }
 	}
 	\fill-line {
-		\smaller \smaller { "תווי על ידי מרק ולצר <mark.veltzer@gmail.com>" }
+		\smaller \smaller { "Typeset by מרק ולצר <mark.veltzer@gmail.com>" }
 	}
 }
 
@@ -1862,7 +1854,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "יום שישי את יודעת" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"מלים: יעקב גלעד"
 				"לחן: יהודה פוליקר"
@@ -2004,7 +1995,7 @@ endChords={}
 		\smaller \smaller { "-- עיזרו לי למלא את שורת זכויות היוצרים הזו --" }
 	}
 	\fill-line {
-		\smaller \smaller { "תווי על ידי מרק ולצר <mark.veltzer@gmail.com>" }
+		\smaller \smaller { "Typeset by מרק ולצר <mark.veltzer@gmail.com>" }
 	}
 }
 

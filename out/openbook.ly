@@ -250,13 +250,13 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 153" }
-				\fill-line { \small "Git describe: 153" }
-				\fill-line { \small "Git commits: 1374" }
-				\fill-line { \small "Build date: 22:33:08 12-01-2015" }
+				\fill-line { \small "Git tag: 154" }
+				\fill-line { \small "Git describe: 154" }
+				\fill-line { \small "Git commits: 1375" }
+				\fill-line { \small "Build date: 07:41:18 18-01-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
-				\fill-line { \small "Build kernel: Linux 3.16.0-28-lowlatency" }
+				\fill-line { \small "Build kernel: Linux 3.16.0-29-lowlatency" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
 				\fill-line { \small "Number of tunes: 139" }
 				\null
@@ -330,7 +330,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "500 Miles High" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Chick Corea"
@@ -551,7 +550,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "A Cup Of Coffee, A Sandwich And You" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Billy Rose, Al Dubin"
 				"Music by Joseph Meyer"
@@ -752,7 +750,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "A Day In The Life Of A Fool" }
 			\fill-line { \large \smaller \bold \larger "Manha De Carnaval / Black Orpheus" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Carl Sigman"
 				"Music by Luiz Bonfa"
@@ -947,7 +944,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "A Fine Romance" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Dorothy Fields"
 				"Music by Jerome Kern"
@@ -1208,7 +1204,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "A Foggy Day" }
 			\fill-line { \large \smaller \bold \larger "From 'A Damsel In Distress'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ira Gershwin"
 				"Music by George Gershwin"
@@ -1412,7 +1407,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "A Night In Tunisia" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by John 'Dizzy' Gillespie, Frank Paparelli"
@@ -1586,7 +1580,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "A Nightengale Sang in Berkeley Square" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Eric Maschwitz"
 				"Music by Manning Sherwin"
@@ -1812,7 +1805,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Afternoon in Paris" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by John Lewis"
@@ -1982,7 +1974,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Alice In Wonderland" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Bob Hilliard"
 				"Music by Sammy Fain"
@@ -2209,7 +2200,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "All Of Me" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Seymour Simons, Gerald Marks"
@@ -2392,7 +2382,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "All Or Nothing At All" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Jack Lawrence"
 				"Music by Arthur Altman"
@@ -2608,7 +2597,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "All The Things You Are" }
 			\fill-line { \large \smaller \bold \larger "From 'VERY WARM FOR MAY'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Oscar Hammerstein II"
 				"Music by Jerome Kern"
@@ -2801,7 +2789,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Alone Together" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Howard Dietz"
 				"Music by Arthur Schwartz"
@@ -3027,7 +3014,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Always" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Irving Berlin"
@@ -3223,7 +3209,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Among My Souvenirs" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Edgar Leslie"
 				"Music by Horatio Nicholls"
@@ -3423,7 +3408,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Angel Eyes" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Earl Brent"
 				"Music by Matt Dennis"
@@ -3652,7 +3636,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "As Time Goes By" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Herman Hupfeld"
@@ -3879,7 +3862,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Au Privave" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Charlie Parker"
@@ -4066,7 +4048,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Autumn In New York" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Vernon Duke"
@@ -4305,7 +4286,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "Autumn Leaves" }
 			\fill-line { \large \smaller \bold \larger "Les Feuilles Mortes" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Jacques Prevert, Johnny Mercer"
 				"Music by Joseph Kosma"
@@ -4499,13 +4479,12 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Bewitched" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Lorenz Hart"
 				"Music by Richard Rodgers"
 			}
 			\fill-line {
-				"Modeartely Slow"
+				"Moderately Slow"
 				""
 			}
 		}
@@ -4719,7 +4698,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Blue Bossa" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Joan Cartwright"
 				"Music by Kenny Dorham"
@@ -4949,7 +4927,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Blue In Green" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Miles Davis, Bill Evans"
@@ -5083,7 +5060,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Blue Monk" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Thelonius Monk"
@@ -5217,7 +5193,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Blue Room" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Lorenz Hart"
 				"Music by Richard Rodgers"
@@ -5440,13 +5415,11 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Blue Skies" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Irving Berlin"
 			}
 			\fill-line {
-				""
 				""
 			}
 		}
@@ -5624,7 +5597,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Blue Trane" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by John Coltrane"
@@ -5778,7 +5750,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Blues For Alice" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Charlie Parker"
@@ -5912,7 +5883,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Bluesette" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Norman Gimbel"
 				"Music by Jean 'Toots' Thielemans"
@@ -6152,7 +6122,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Body And Soul" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Edward Heyman, Robert Sour, Frank Eyton"
 				"Music by John Green"
@@ -6414,7 +6383,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Bye Bye Blackbird" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Mort Dixon"
 				"Music by Ray Henderson"
@@ -6626,7 +6594,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Can't Help Lovin' Dat Man" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Oscar Hammerstein III"
 				"Music by Jerome Kern"
@@ -6806,7 +6773,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Caravan" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Irving Mills"
 				"Music by Duke Ellington, Juan Tizol"
@@ -7032,7 +6998,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "Chega De Saudade" }
 			\fill-line { \large \smaller \bold \larger "No More Blues" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Vinicius DeMoraes, John Hendricks, Jessie Cavanaugh"
 				"Music by Antonio Carlos Jobim"
@@ -7260,7 +7225,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Cocktails For Two" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Arthur Johnston and Sam Coslow"
@@ -7479,7 +7443,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Come Rain Or Come Shine" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Johnny Mercer"
 				"Music by Harold Arlen"
@@ -7664,7 +7627,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Cry Me A River" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Arthur Hamilton"
@@ -7868,7 +7830,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Dancing on the Ceiling" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Lorenz Hart"
 				"Music by Richard Rodgers"
@@ -8068,7 +8029,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Darn That Dream" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Eddie DeLange"
 				"Music by Jimmy Van Heusen"
@@ -8265,7 +8225,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "Desafinado" }
 			\fill-line { \large \smaller \bold \larger "Slightly Out Of Tune" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Newton Mendonca, Jon Hendricks, Jessie Cavanaugh"
 				"Music by Antonio Carlos Jobim"
@@ -8482,7 +8441,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Donna Lee" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Charlie Parker"
@@ -8640,7 +8598,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Don't Blame Me" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Dorothy Fields"
 				"Music by Jimmy McHugh"
@@ -8864,7 +8821,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Don't Explain" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Arthur Herzog, Jr."
 				"Music by Billie Holiday"
@@ -9064,7 +9020,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Don't Get Around Much Anymore" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Bob Russell"
 				"Music by Duke Ellington"
@@ -9259,7 +9214,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Doxy" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Sonny Rollins"
@@ -9429,7 +9383,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Easy Living" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Ralph Rainger, Leo Robin"
@@ -9651,7 +9604,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "Easy To Love" }
 			\fill-line { \large \smaller \bold \larger "From 'Born To Dance'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Cole Porter"
@@ -9865,7 +9817,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Epistrophy" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Thelonius Monk"
@@ -10036,7 +9987,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Flamingo" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ed Anderson"
 				"Music by Ted Grouya"
@@ -10258,7 +10208,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "Fly Me To The Moon" }
 			\fill-line { \large \smaller \bold \larger "In Other Words" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Bart Howard"
@@ -10456,7 +10405,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Gentle Rain" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Matt Dubey"
 				"Music by Louis Bonfa"
@@ -10659,7 +10607,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Giant Steps" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by John Coltrane"
@@ -10831,7 +10778,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Gloria's Step" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Scott LaFaro"
@@ -10984,7 +10930,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Green Dolphin Street" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ned Washington"
 				"Music by Bronislau Kaper"
@@ -11186,7 +11131,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Guilty" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Gus Kahn, Harry Akst, Richard A. Whiting"
@@ -11388,7 +11332,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Hallelujah I Love Him (Her) So" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Ray Charles"
@@ -11576,7 +11519,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Have you met Miss Jones?" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Lorenz Hart"
 				"Music by Richard Rodgers"
@@ -11786,13 +11728,11 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Heart And Soul" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Frank Losser, Hoagy Carmichael"
 			}
 			\fill-line {
-				""
 				""
 			}
 		}
@@ -11978,7 +11918,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Here's That Rainy Day" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Johnny Burke"
 				"Music by James Van Heusen"
@@ -12200,7 +12139,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Honeysuckle Rose" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Andy Razaf"
 				"Music by Thomas 'Fats' Waller"
@@ -12402,7 +12340,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "How Deep Is the Ocean" }
 			\fill-line { \large \smaller \bold \larger "How High Is the Sky" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Irving Berlin"
@@ -12593,7 +12530,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "How High The Moon" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Nancy Hamilton"
 				"Music by Morgan Lewis"
@@ -12813,7 +12749,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "How Insensitive" }
 			\fill-line { \large \smaller \bold \larger "Insensatez" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Vincius De Moraes, Norman Gimbel"
 				"Music by Antonio Carlos Jobim"
@@ -13038,7 +12973,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "I Can't Give You Anything But Love" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Dorothy Fields"
 				"Music by Jimmy McHugh"
@@ -13210,7 +13144,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "I Could Have Danced All Night" }
 			\fill-line { \large \smaller \bold \larger "From 'My Fair Lady'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Alan Jay Lerner"
 				"Music by Frederick Loewe"
@@ -13425,7 +13358,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "I Could Write A Book" }
 			\fill-line { \large \smaller \bold \larger "From 'Pal Joey'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Lorenz Hart"
 				"Music by Richard Rodgers"
@@ -13649,7 +13581,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "I Got Plenty O' Nuttin'" }
 			\fill-line { \large \smaller \bold \larger "(From 'Porgy and Bess')" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ira Gershwin, DuBose Hayward"
 				"Music by George Gershwin"
@@ -13871,7 +13802,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "I Left My Heart In San Francisco" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Douglass Cross"
 				"Music by Geroge Cory"
@@ -14039,7 +13969,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "I Love You" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Cole Porter"
@@ -14225,7 +14154,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "If You Could See Me Now" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Carl Sigman"
 				"Music by Tadd Dameron"
@@ -14446,7 +14374,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "I'll Be Seeing You" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Irving Kahal, Sammy Fain"
@@ -14660,7 +14587,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "I'll Close My Eyes" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Buddy Kaye"
 				"Music by Billy Reid"
@@ -14856,7 +14782,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "I'll Never Smile Again" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Ruth Lowe"
@@ -15050,7 +14975,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "I'll Remember April" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Don Raye, Gene De Paul, Pat Johnson"
@@ -15255,7 +15179,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "I'm Beginning To See The Light" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Harry James, Duke Ellington, Johnny Hodges, Don George"
@@ -15448,7 +15371,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "I'm Sitting On Top Of The World" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Sam M. Lewis and Joel Young"
 				"Music by Ray Handerson"
@@ -15647,7 +15569,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "Isn't It Romantic" }
 			\fill-line { \large \smaller \bold \larger "From the Paramount Picture 'Love Me Tonight'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Lorenz Hart"
 				"Music by Richard Rodgers"
@@ -15859,7 +15780,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Just Friends" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Sam M. Lewis"
 				"Music by John Klenner"
@@ -16036,7 +15956,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Like Someone In Love" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Johnny Burke, Jimmy Van Heusen"
@@ -16248,7 +16167,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "Lost In The Stars" }
 			\fill-line { \large \smaller \bold \larger "(Form 'Lost In The Stars')" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Maxwell Anderson"
 				"Music by Kurt Weill"
@@ -16441,7 +16359,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Love For Sale" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Cole Porter"
@@ -16664,7 +16581,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Lullaby of birdland" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by George David Weiss"
 				"Music by George Shearing"
@@ -16878,7 +16794,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Misty" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Johnny Burke"
 				"Music by Errol Garner"
@@ -17093,7 +17008,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Moonlight in Vermont" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by John Blackburn"
 				"Music by Karl Suessdorf"
@@ -17277,7 +17191,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "My Favorite Things" }
 			\fill-line { \large \smaller \bold \larger "From 'The Sound Of Music'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Oscar Hammerstein II"
 				"Music by Richard Rodgers"
@@ -17497,7 +17410,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "My Foolish Heart" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ned Washington"
 				"Music by Victor Young"
@@ -17700,7 +17612,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "My Funny Valentine" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Lorenz Hart"
 				"Music by Richard Rodgers"
@@ -17895,7 +17806,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "My One And Only Love" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Robert Mellin"
 				"Music by Guy Wood"
@@ -18122,13 +18032,12 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "My Romance" }
 			\fill-line { \large \smaller \bold \larger "From 'Jumbo'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Lorenz Hart"
 				"Music by Richard Rodgers"
 			}
 			\fill-line {
-				"Modeartely Slow"
+				"Moderately Slow"
 				""
 			}
 		}
@@ -18315,7 +18224,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "My Ship" }
 			\fill-line { \large \smaller \bold \larger "From The Musical Production 'LADY IN THE DARK'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ira Gershwin"
 				"Music by Kurt Weil"
@@ -18533,7 +18441,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Nature Boy" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Eben Ahbez"
@@ -18720,7 +18627,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "Nice Work If You Can Get It" }
 			\fill-line { \large \smaller \bold \larger "(From 'A Damsel In Distress')" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ira Gershwin"
 				"Music by George Gershwin"
@@ -18900,13 +18806,11 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Night And Day" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Cole Porter"
 			}
 			\fill-line {
-				""
 				""
 			}
 		}
@@ -19128,7 +19032,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Now's The Time" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Charlie Parker"
@@ -19268,7 +19171,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Ol' Man River" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Oscar Hammerstein II"
 				"Music by Jerome Kern"
@@ -19462,7 +19364,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Once I Loved" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Vinicius DeMoraes, Ray Gilbert"
 				"Music by Antonio Carlos Jobim"
@@ -19667,7 +19568,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "One By One" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Wayne Shorter"
@@ -19823,7 +19723,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "One Note Samba" }
 			\fill-line { \large \smaller \bold \larger "Samba de uma nota so" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Newton Mendonca"
 				"Music by Antonio Carlos Jobim"
@@ -20021,7 +19920,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Opus One" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Sy Oliver"
@@ -20220,7 +20118,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Orchids In The Moonlight" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Gus Kahn, Edward Eliscu"
 				"Music by Vincent Youmans"
@@ -20392,7 +20289,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Ornithology" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Charlie Parker, Benny Harris"
@@ -20565,7 +20461,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Polka Dots And Moonbeams" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Johnny Burke"
 				"Music by Jimmy Van Heusen"
@@ -20762,7 +20657,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Poor Butterfly" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by John L. Golden"
 				"Music by Raymond Hubbell"
@@ -20944,7 +20838,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Prelude To A Kiss" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Irving Gordon and Irving Mills"
 				"Music by Duke Ellington"
@@ -21125,7 +21018,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Red Sails In The Sunset" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Jimmy Kennedy"
 				"Music by Hugh Williams"
@@ -21336,7 +21228,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "'Round Midnight" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Bernie Hanighen"
 				"Music by Cootie Williams, Thelonious Monk"
@@ -21563,7 +21454,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Satin Doll" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Johnny Mercer"
 				"Music by Duke Ellington, Billy Strayhorn"
@@ -21772,7 +21662,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Serenade To A Cuckoo" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Roland Kirk"
@@ -21926,7 +21815,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Solar" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Miles Davis"
@@ -22065,7 +21953,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Someday My Prince Will Come" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Larry Morey"
 				"Music by Frank Churchill"
@@ -22319,7 +22206,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Someone To Watch Over Me" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ira Gershwin"
 				"Music by George Gershwin"
@@ -22552,7 +22438,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Somewhere, Over The Rainbow" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Edgar Yipsel 'Yip' Harburg"
 				"Music by Harold Arlen"
@@ -22786,7 +22671,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "St. Thomas" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Sonny Rollins"
@@ -22945,7 +22829,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Stella By Starlight" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ned Washington"
 				"Music by Victor Young"
@@ -23125,7 +23008,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "Stormy Weather" }
 			\fill-line { \large \smaller \bold \larger "Keeps Rainin' All the Time" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ted Koehler"
 				"Music by Harold Arlen"
@@ -23352,7 +23234,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Strang Fruit" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Lewis Allan"
@@ -23514,7 +23395,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Strangers In The Night" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Charles Singleton, Eddie Snyder"
 				"Music by Bert Kaempfert"
@@ -23711,7 +23591,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Summertime" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by DuBose Heyward"
 				"Music by George Gershwin"
@@ -23922,7 +23801,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Take Five" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Paul Desmond"
@@ -24078,7 +23956,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Take the 'A' Train" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Joya Sherrill"
 				"Music by Billy Strayhorn, The Delta Rhythm Boys"
@@ -24289,7 +24166,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Tenderly" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Jack Lawrence"
 				"Music by Walter Gross"
@@ -24480,7 +24356,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "That's All" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Alan Brandt, Bob Haymes"
@@ -24709,7 +24584,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "The Girl From Ipanema" }
 			\fill-line { \large \smaller \bold \larger "Garota De Ipanema" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Vincius De Moraes, Norman Gimbel"
 				"Music by Antonio Carlos Jobim"
@@ -24943,7 +24817,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "The Man I Love" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ira Gershwin"
 				"Music by George Gershwin"
@@ -25183,7 +25056,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "(I'm Afraid) The Masquerade Is Over" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Herb Magidson"
 				"Music by Allie Wrubel"
@@ -25394,7 +25266,6 @@ endChords={}
 			\huge \larger \bold
 			\fill-line { \larger "The Nearness Of You" }
 			\fill-line { \large \smaller \bold \larger "from the Paramount Picture 'Romance in the Dark'" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ned Washington"
 				"Music by Hoagy Carmichael"
@@ -25589,7 +25460,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "The Shadow of Your Smile" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Paul Francis Webster"
 				"Music by Johnny Mandel"
@@ -25787,7 +25657,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "The Things We Did Last Summer" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Sammy Chan & Jule Styne"
@@ -25995,7 +25864,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "The Way You Look Tonight" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Dorothy Fields"
 				"Music by Jerome Kern"
@@ -26254,7 +26122,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "There Will Never Be Another You" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Mack Gordon"
 				"Music by Harry Warren"
@@ -26440,7 +26307,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "They All Laughed" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ira Gershwin"
 				"Music by George Gershwin"
@@ -26698,7 +26564,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "They Can't Take That Away From Me" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Ira Gershwin"
 				"Music by George Gershwin"
@@ -26901,7 +26766,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "This Can't Be Love" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Lorenz Hart"
 				"Music by Richard Rogers"
@@ -27089,7 +26953,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Unforgettable" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by Irving Gordon"
@@ -27259,7 +27122,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Waltz For Debby" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Gene Lees"
 				"Music by Bill Evans"
@@ -27492,7 +27354,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "Watermelon Man" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Music by Herbie Hancock"
@@ -27629,7 +27490,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "What A Diff'rence A Day Made" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Stanley Adams"
 				"Music by Maria Grever"
@@ -27843,7 +27703,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "What A Wonderful World" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				""
 				"Lyrics and Music by George David Weiss, Bob Thiele"
@@ -28041,7 +27900,6 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "When I Fall In Love" }
-			\fill-line { \smaller \bold "" }
 			\fill-line {
 				"Lyrics by Edward Heyman"
 				"Music by Victor Young"
