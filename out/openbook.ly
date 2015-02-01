@@ -250,15 +250,15 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 154" }
-				\fill-line { \small "Git describe: 154" }
-				\fill-line { \small "Git commits: 1375" }
-				\fill-line { \small "Build date: 07:41:18 18-01-2015" }
+				\fill-line { \small "Git tag: 155" }
+				\fill-line { \small "Git describe: 155" }
+				\fill-line { \small "Git commits: 1376" }
+				\fill-line { \small "Build date: 15:21:41 01-02-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.16.0-29-lowlatency" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
-				\fill-line { \small "Number of tunes: 139" }
+				\fill-line { \small "Number of tunes: 140" }
 				\null
 				\null
 				\null
@@ -4428,6 +4428,137 @@ endChords={}
 	\null
 	\fill-line {
 		\smaller \smaller { "Copyright © 1947, 1950, 1987 Enoch Et Cie. Renewed 1975, 1978 Enoch Et Cie" }
+	}
+	\fill-line {
+		\smaller \smaller { "Typeset by Mark Veltzer <mark@veltzer.net>" }
+	}
+}
+
+
+
+}
+
+
+\bookpart {
+
+% this causes the variables to be defined...
+
+
+
+
+
+
+
+
+
+
+
+% now play with the variables that depend on language
+
+
+
+% calculate the tag line
+
+
+% calculate the typesetby
+
+
+
+
+\tocItem \markup "Bessies's Blues / John Coltrane"
+
+
+
+
+
+% taken from "/usr/share/lilypond/2.12.3/ly/titling-init.ly"
+\markup {
+	\column {
+		\override #'(baseline-skip . 3.5)
+		\column {
+			\huge \larger \bold
+			\fill-line { \larger "Bessies's Blues" }
+			\fill-line {
+				""
+				"Music by John Coltrane"
+			}
+			\fill-line {
+				"Blues"
+				""
+			}
+		}
+	}
+}
+\noPageBreak
+
+
+% include the preparatory stuff, if there is any
+
+% calculate the vars
+
+
+
+% score for printing
+\score {
+	<<
+\new ChordNames="Chords"
+	\with {
+		\remove "Bar_engraver"
+	}
+	
+
+
+\chordmode {
+	\startChords
+	\startSong
+
+	\myMark "A"
+	\startPart
+	ees1:7 | aes:7 | ees1*2:7 | \myEndLine
+	aes:7 | ees:7 | \myEndLine
+	bes1:7 | aes:7 | ees:7 | bes:7 | \myEndLine
+	\endPart
+
+	\endSong
+	\endChords
+}
+
+
+% this thing will only engrave voltas. This is required to put the volta under the chords.
+% No great harm will happen if you don't put it, only the voltas will be above the chords.
+%\new Staff \with {
+%	\consists "Volta_engraver"
+%}
+\new Staff="Melody" {
+\new Voice="Voice"
+	\relative c' 
+
+
+
+{
+	\tempo "Presto" 4 = 200
+	\time 4/4
+	\key c \major
+
+%% part "A"
+	g'4 ees8 des~ des2 | c'4 aes8 ges~ ges4. ees8 | g ees g4 g8 ees!4 g8~ | g ees d des~ des2 |
+	r8 c'4 bes8 c aes r4 | c4. aes8 r ges4 ees8 | g ees g4 g8 g4 g8~ | g ees d des r g4 ges8 |
+	f4 d bes d8 f | ees c aes4 c8 ees!4. | r8 f ees c r2 | r f8 g aes bes |
+}
+
+}
+	>>
+	\layout {
+	}
+}
+
+
+\noPageBreak
+\markup \column {
+%% just a little space
+	\null
+	\fill-line {
+		\smaller \smaller { "-- help me fill it out this copyright notice --" }
 	}
 	\fill-line {
 		\smaller \smaller { "Typeset by Mark Veltzer <mark@veltzer.net>" }
