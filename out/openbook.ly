@@ -251,14 +251,14 @@ endChords={}
 				\null
 				\null
 				\fill-line { \small "Git tag: 155" }
-				\fill-line { \small "Git describe: 155" }
-				\fill-line { \small "Git commits: 1376" }
-				\fill-line { \small "Build date: 15:21:41 01-02-2015" }
+				\fill-line { \small "Git describe: 155-8-g4cc6a4d" }
+				\fill-line { \small "Git commits: 1384" }
+				\fill-line { \small "Build date: 09:29:09 22-07-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
-				\fill-line { \small "Build kernel: Linux 3.16.0-29-lowlatency" }
+				\fill-line { \small "Build kernel: Linux 3.19.0-22-lowlatency" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
-				\fill-line { \small "Number of tunes: 140" }
+				\fill-line { \small "Number of tunes: 141" }
 				\null
 				\null
 				\null
@@ -6463,6 +6463,220 @@ endChords={}
 	\null
 	\fill-line {
 		\smaller \smaller { "Copyright © 1930 Warner Bros. Inc & Chappell & Co. Ltd." }
+	}
+	\fill-line {
+		\smaller \smaller { "Typeset by Mark Veltzer <mark@veltzer.net>" }
+	}
+}
+
+
+
+}
+
+
+\bookpart {
+
+% this causes the variables to be defined...
+
+
+
+
+
+
+
+
+
+
+
+
+
+% now play with the variables that depend on language
+
+
+
+% calculate the tag line
+
+
+% calculate the typesetby
+
+
+
+
+\tocItem \markup "But Not For Me / George Gershwin, Ira Gershwin"
+
+
+
+
+
+% taken from "/usr/share/lilypond/2.12.3/ly/titling-init.ly"
+\markup {
+	\column {
+		\override #'(baseline-skip . 3.5)
+		\column {
+			\huge \larger \bold
+			\fill-line { \larger "But Not For Me" }
+			\fill-line {
+				"Lyrics by Ira Gershwin"
+				"Music by George Gershwin"
+			}
+			\fill-line {
+				"Moderately"
+				""
+			}
+		}
+	}
+}
+\noPageBreak
+
+
+% include the preparatory stuff, if there is any
+
+% calculate the vars
+
+
+
+% score for printing
+\score {
+	<<
+\new ChordNames="Chords"
+	\with {
+		\remove "Bar_engraver"
+	}
+	
+
+
+\chordmode {
+	\startChords
+	\startSong
+
+	\partial 2. s2. |
+
+	\repeat volta 2 {
+		\myMark "A"
+		\startPart
+		g1:7 | g2:m7 c:7 | f1:maj7 | d:m7 | \myEndLine
+		g:7 | g2:m7 c:7 | f1:maj7 | c2:m7 f:7 | \myEndLine
+		\endPart
+	} \alternative {
+		{
+			\myMark "B"
+			\startPart
+			bes1:maj7 | bes2:m7 ees:7 | f1*2:maj7 | \myEndLine
+			d1:m7 | g:7 | g:m7 | c:7 | \myEndLine
+		}
+		{
+			\myMark "C"
+			\startPart
+			bes1:maj7 | bes2:m7 ees:7 | f1:maj7 | d:m7 | \myEndLine
+			g:m7 | c:7 | f1*2:maj7 | \myEndLine
+		}
+	}
+
+	\endSong
+	\endChords
+}
+
+
+
+
+% this thing will only engrave voltas. This is required to put the volta under the chords.
+% No great harm will happen if you don't put it, only the voltas will be above the chords.
+%\new Staff \with {
+%	\consists "Volta_engraver"
+%}
+\new Staff="Melody" {
+\new Voice="Voice"
+	\relative c' 
+
+
+
+{
+	\tempo "Moderato" 4 = 116
+	\time 4/4
+	\key f \major
+
+	\partial 2. g'4 a g |
+
+	\repeat volta 2 {
+	%% part "A"
+		a2 g4 f~ | f g a g | a1 | r4 g a g |
+		a2 g4 f~ | f g a g | a1 | r4 a bes c |
+	} \alternative {
+		{
+		%% part "B"
+			cis2 d4 f | r g, a bes | b!2 c4 f | r f, g a |
+			a2 bes4 f' | r f d bes | g1 | r4 g a g |
+		}
+		{
+		%% part "C"
+			cis2 d4 f | r g, a bes | b!2 c4 g' | r f d bes |
+			a1 | g | f~ | f2. r4 |
+		}
+	}
+}
+
+
+
+}
+\new Lyrics="Lyrics" \lyricsto "Voice"
+	
+
+
+
+
+\lyricmode {
+
+%% part "A"
+	They're wri -- ting songs of love, __
+	But not for me
+	A luc -- ky stars a -- bove, __
+	But not for me!
+
+%% part "B"
+	With love to lead the way,
+	I've found more clouds of gray
+	Than a -- ny Rus -- sian play
+	Could gua -- ran -- tee
+
+	I was a
+
+%% part "C"
+	can't dis -- miss
+	the me -- mory of his kiss,
+	I guess he's not for me __
+}
+
+
+\new Lyrics="Lyrics" \lyricsto "Voice"
+	
+
+
+
+
+
+\lyricmode {
+
+%% part "A"
+	_ _ _ fool to fall, __
+	And get that way
+	Hi- -- Ho a -- las
+	and al __ -- so lack a day
+
+	Al -- though I
+}
+
+	>>
+	\layout {
+	}
+}
+
+
+\noPageBreak
+\markup \column {
+%% just a little space
+	\null
+	\fill-line {
+		\smaller \smaller { "-- help me fill it out this copyright notice --" }
 	}
 	\fill-line {
 		\smaller \smaller { "Typeset by Mark Veltzer <mark@veltzer.net>" }
