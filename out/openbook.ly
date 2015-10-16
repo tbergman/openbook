@@ -256,15 +256,15 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 165" }
-				\fill-line { \small "Git describe: 165" }
-				\fill-line { \small "Git commits: 1435" }
-				\fill-line { \small "Build date: 22:02:10 14-10-2015" }
+				\fill-line { \small "Git tag: 166" }
+				\fill-line { \small "Git describe: 166" }
+				\fill-line { \small "Git commits: 1436" }
+				\fill-line { \small "Build date: 10:49:01 16-10-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.19.0-30-generic" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
-				\fill-line { \small "Number of tunes: 147" }
+				\fill-line { \small "Number of tunes: 148" }
 				\null
 				\null
 				\null
@@ -23630,6 +23630,195 @@ endChords={}
 	}
 	\fill-line {
 		\smaller \smaller { "Typeset by Jordan Eldredge <JordanEldredge@gmail.com>" }
+	}
+}
+
+
+
+}
+
+
+% include anything the user wants before the bookpart starts
+
+
+
+
+
+
+
+\bookpart {
+
+% this causes the variables to be defined...
+
+
+
+
+
+
+
+
+
+
+
+
+% now play with the variables that depend on language
+
+
+
+% calculate the tag line
+
+
+% calculate the typesetby
+
+
+
+
+\tocItem \markup "Quiet Nights Of Quiet Stars / Antonio Carlos Jobim, Antonio Carlos Jobim, Gene Lees"
+
+
+
+
+
+% taken from "/usr/share/lilypond/2.12.3/ly/titling-init.ly"
+\markup {
+	\column {
+		\override #'(baseline-skip . 3.5)
+		\column {
+			\huge \larger \bold
+			\fill-line { \larger "Quiet Nights Of Quiet Stars" }
+			\fill-line { \large \smaller \bold \larger "Corcovado" }
+			\fill-line {
+				"Lyrics by Antonio Carlos Jobim, Gene Lees"
+				"Music by Antonio Carlos Jobim"
+			}
+			\fill-line {
+				"Moderately Slow"
+				""
+			}
+		}
+	}
+}
+\noPageBreak
+
+
+% include the preparatory stuff, if there is any
+
+% calculate the vars
+
+
+
+% score for printing
+\score {
+	<<
+\new ChordNames="Chords"
+	\with {
+		\remove "Bar_engraver"
+	}
+	
+
+
+\chordmode {
+	\startChords
+	\startSong
+
+	\myMark "A"
+	\startPart
+	d1*2:9 | aes:dim7 | \myEndLine
+	g1:m7 | c8*5:7 ges4.:7 | f2:dim7 f:maj7 | f1:maj7 | \myEndLine
+	f:m7 | bes:13 | e:m7 | a:7.5+ | \myEndLine
+	d:9 | d2.:9 d4:m7 | d2.:m7 aes4:dim7 | aes1:dim7 | \myEndLine
+	\endPart
+
+	\myMark "A'"
+	\startPart
+	d1*2:9 | aes:dim7 | \myEndLine
+	g1:m7 | c8*5:7 ges4.:7 | f2:dim7 f:maj7 | f1:maj7 | \myEndLine
+	f:m7 | bes:7.5- | e:m7 | a:m7 | \myEndLine
+	d:m7 | g:7.9- | e:m7 | a:7.5+ | \myEndLine
+	d:m7 | g:9 | c1*2:6 | \myEndLine
+	\endPart
+
+	\endSong
+	\endChords
+}
+
+
+
+% this thing will only engrave voltas. This is required to put the volta under the chords.
+% No great harm will happen if you don't put it, only the voltas will be above the chords.
+%\new Staff \with {
+%	\consists "Volta_engraver"
+%}
+\new Staff="Melody" {
+\new Voice="Voice"
+	\relative c' 
+
+
+
+{
+	\tempo "Allegro" 4 = 130
+	\time 2/2
+	\key c \major
+
+%% part "A"
+	r8 e4 d8 e d4 e8~ | e d e2. | r8 e4 d8 e d4 e8~ | e d e2. |
+	r8 d4 c8 d c4 d8~ | d c4 f8~ f e4 e8~ | e4. d8~ d2~ | d2. r4 |
+	r8 g4 f8 g f4 g8~ | g f4 g8~ g2 | r8 f4 e8 f e4 f8~ | f e f2. |
+	r8 e4 d8 e d4 e8~ | e d4 e8~ e d f4~ | f8 e4 f8 e4 f~| f8 e4 d8~ d c4. |
+
+%% part "A'"
+	r8 e4 d8 e d4 e8~ | e d4 e8~ e2 | r8 e4 d8 e d4 e8~ | e d e4~ e8 g4 d8~ |
+	d2 \tuplet 3/2 { c4 d c } | d8 c4 f8~ f e4 e8~ | e4. d8~ d2~ | d2. r4 |
+	r8 c'4 bes8~ bes aes g f | e4. d8~ d2 | r4 r8 b' a g f e | d4. c8~ c2 |
+	r4 r8 a' g f e d | c b4 c8~ c d4 g8~ | g1~ | g2 r |
+	r4 r8 a g f e d | c b4 c8~ c d4 c8~ | c1~ | c2. r4 |
+}
+
+
+}
+\new Lyrics="Lyrics" \lyricsto "Voice"
+	
+
+
+
+
+\lyricmode {
+
+%% part "A"
+	Qui -- et Nights Of Qui -- et Stars,
+	qui -- et chords from my __ gui -- tar
+	float -- ing on the si -- lence that __ sur -- rounds __ us. __
+	Qui -- et thoughts and qui -- et dreas, __
+	qui -- et walks by qui -- et streams,
+	and a win -- dow look -- ing on __ the moun -- tains and the sea. __
+	How love -- ly!
+
+%% part "A'"
+	This is where I want __ to be. __
+	Here, with you so close __ to me __
+	un -- til __ the fin -- al flick -- er of __ life's em -- ber. __
+	I, who __ was lost and lone -- ly, __
+	be -- liev -- ing life was on -- ly __
+	a bit -- ter tra -- gic joke, have found __ with you, __
+	the mean -- ing of ex -- ist -- ence.
+	Oh, __ my love. __
+}
+
+	>>
+	\layout {
+	}
+}
+
+
+\noPageBreak
+\markup \column {
+%% just a little space
+	\null
+	\fill-line {
+		\smaller \smaller { "Copyright © 1962, 1964 by Antonio Carlos Jobim, Brazil" }
+	}
+	\fill-line {
+		\smaller \smaller { "Typeset by Mark Veltzer <mark@veltzer.net>" }
 	}
 }
 
