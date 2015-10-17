@@ -256,15 +256,15 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 166" }
-				\fill-line { \small "Git describe: 166" }
-				\fill-line { \small "Git commits: 1436" }
-				\fill-line { \small "Build date: 10:49:01 16-10-2015" }
+				\fill-line { \small "Git tag: 167" }
+				\fill-line { \small "Git describe: 167" }
+				\fill-line { \small "Git commits: 1440" }
+				\fill-line { \small "Build date: 16:15:24 17-10-2015" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
 				\fill-line { \small "Build kernel: Linux 3.19.0-30-generic" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
-				\fill-line { \small "Number of tunes: 148" }
+				\fill-line { \small "Number of tunes: 149" }
 				\null
 				\null
 				\null
@@ -421,7 +421,7 @@ endChords={}
 
 
 {
-	\tempo Allegro 4 = 168
+	\tempo "Allegro" 4 = 168
 	\time 4/4
 	\key c \major
 
@@ -662,7 +662,7 @@ endChords={}
 
 
 {
-	\tempo Andante 4 = 88
+	\tempo "Andante" 4 = 88
 	\time 2/2
 	\key bes \major
 
@@ -857,7 +857,7 @@ endChords={}
 
 
 {
-	\tempo Moderato 4 = 120
+	\tempo "Moderato" 4 = 120
 	\time 4/4
 	\key c \major
 
@@ -1344,7 +1344,7 @@ endChords={}
 
 
 {
-	\tempo Allegro 4 = 130
+	\tempo "Allegro" 4 = 130
 	\time 4/4
 	\key f \major
 
@@ -8295,6 +8295,178 @@ endChords={}
 
 
 
+\bookpart {
+
+% this causes the variables to be defined...
+
+
+
+
+
+
+
+
+
+
+
+% now play with the variables that depend on language
+
+
+
+% calculate the tag line
+
+
+% calculate the typesetby
+
+
+
+
+\tocItem \markup "Could It Be You / Cole Porter"
+
+
+
+
+
+% taken from "/usr/share/lilypond/2.12.3/ly/titling-init.ly"
+\markup {
+	\column {
+		\override #'(baseline-skip . 3.5)
+		\column {
+			\huge \larger \bold
+			\fill-line { \larger "Could It Be You" }
+			\fill-line {
+				""
+				"Music by Cole Porter"
+			}
+			\fill-line {
+				"Ballad"
+				""
+			}
+		}
+	}
+}
+\noPageBreak
+
+
+% include the preparatory stuff, if there is any
+
+% calculate the vars
+
+
+
+% score for printing
+\score {
+	<<
+\new ChordNames="Chords"
+	\with {
+		\remove "Bar_engraver"
+	}
+	
+
+
+\chordmode {
+	\startChords
+	\startSong
+
+	\repeat volta 2 {
+
+		\myMark "A"
+		\startPart
+		bes1:maj7 | c2:m7 f:7 | bes1:maj7 | g4:m7 ges:m7 f:m7 bes:7 | \myEndLine
+		ees1:maj7 | f2:m7 bes:7 | ees1:maj7 | g2:m7 c:7 | \myEndLine
+		\endPart
+	} \alternative {
+		{
+
+			\myMark "B"
+			\startPart
+			f1:maj7 | a:7.9- | d2:m7 g:7 | a:m7.5- d:7.9- | \myEndLine
+			g:m g:m7 | c1:7 | f:7 | c2:9 c4:m7 f:7 | \myEndLineVoltaLast
+			\endPart
+		}
+		{
+
+			\myMark "C"
+			\startPart
+			bes1:maj7 | d:7 | ees2:maj7 c4:7 g:7 | ees2:m7 aes:7 | \myEndLine
+			bes1:maj7 | c2:9 c4:m7 f:7 | bes1:6 | \LPC c2:m7 \RPC f:7 | \myEndLineVoltaLast
+			\endPart
+		}
+	}
+
+	\endSong
+	\endChords
+}
+
+
+% this thing will only engrave voltas. This is required to put the volta under the chords.
+% No great harm will happen if you don't put it, only the voltas will be above the chords.
+%\new Staff \with {
+%	\consists "Volta_engraver"
+%}
+\new Staff="Melody" {
+\new Voice="Voice"
+	\relative c' 
+
+
+
+{
+	\tempo "Allegro" 4 = 168
+	\time 4/4
+	\key bes \major
+
+	\repeat volta 2 {
+
+	%% part "A"
+		r4 d f d | g1 | r4 d f d | g4 ges8 f~ f2 |
+		r4 g! bes g | c1 | r4 g bes g | c4 ces8 bes~ bes2 |
+	} \alternative {
+		{
+
+		%% part "B"
+			r4 a c!4. a8 | g fis g bes~ bes4. g8 | f! e! f a~ a f e4 | ees!2. r4 |
+			r d8 d~ d cis d4 | a'2 g | r4 f8 f~ f e! f4 | d'2 c |
+		}
+		{
+
+		%% part "C"
+			r4 bes d4. bes8 | a gis a c~ c4. a8 | g! fis g bes~ bes f! g4 | ees1 |
+			r4 f g d' | d2 c8 bes c4 | bes1_\markup { \italic { Fine } } | r |
+		}
+	}
+}
+
+}
+	>>
+	\layout {
+	}
+}
+
+
+\noPageBreak
+\markup \column {
+%% just a little space
+	\null
+	\fill-line {
+		\smaller \smaller { "-- help me fill it out this copyright notice --" }
+	}
+	\fill-line {
+		\smaller \smaller { "Typeset by Mark Veltzer <mark@veltzer.net>" }
+	}
+}
+
+
+
+}
+
+
+% include anything the user wants before the bookpart starts
+
+
+
+
+
+
 
 \bookpart {
 
@@ -8429,21 +8601,21 @@ endChords={}
 	\repeat volta 2 {
 
 	%% part "A"
-		d'2~ d8 c g ees | d c4.~ c2 | r8 c ees c' bes4 bes | g2~ g8. g16 fis8. g16 | c4~ \tuplet 3/2 { c8 des c } des8 c4. |
+		d'2~ d8 c g ees | d c4.~ c2 | r8 c ees c' bes4 bes | g2~ g8. g16 fis8. g16 | c4~ \tuplet 3/2 { c8 des c } des c4. |
 
 	%% part "A"
-		r8 g8~ \tuplet 3/2 { g8 f ees } f8 g4. | r8 ges f ees f ees c ees | ees2~ ees4. r8 | d'2~ d8 c g ees | d c4.~ c2 |
-		r8 c ees c' bes4 bes | g2~ g8. g16 fis8. g16 | c4~ \tuplet 3/2 { c8 des c } des8 c4. | r8 g8~ \tuplet 3/2 { g8 f ees } f8 g4. |
+		r8 g~ \tuplet 3/2 { g f ees } f g4. | r8 ges f ees f ees c ees | ees2~ ees4. r8 | d'2~ d8 c g ees | d c4.~ c2 |
+		r8 c ees c' bes4 bes | g2~ g8. g16 fis8. g16 | c4~ \tuplet 3/2 { c8 des c } des c4. | r8 g~ \tuplet 3/2 { g f ees } f g4. |
 		r8 ges f ees f ees c ees | ees1 |
 
 	%% part "B"
-		r8. g16 a bes8.~ \tuplet 3/2 { bes8 d, e } fis8 g | a8. g16 bes8 a~ a4. g8 |
-		bes4~ \tuplet 3/2 { bes8 g d' } c4 bes8 c~ | c1 | r8. g16 a bes8.~ \tuplet 3/2 { bes8 d, e } fis8 g | a8. g16 bes8 a~ a2 |
-		r8 a16 g a8. g16 a8. g16 b16 g8. | r8 a16 g a8. g16 a8. g16 b16 g8. |
+		r8. g16 a bes8.~ \tuplet 3/2 { bes8 d, e } fis g | a8. g16 bes8 a~ a4. g8 |
+		bes4~ \tuplet 3/2 { bes8 g d' } c4 bes8 c~ | c1 | r8. g16 a bes8.~ \tuplet 3/2 { bes8 d, e } fis g | a8. g16 bes8 a~ a2 |
+		r8 a16 g a8. g16 a8. g16 b g8. | r8 a16 g a8. g16 a8. g16 b g8. |
 
 	%% part "A"
 		d'2~ d8 c g ees | d c4.~ c2 |
-		r8 c ees c' bes4 bes | g2~ g8. g16 fis8. g16 | c4~ \tuplet 3/2 { c8 des c } des c4. | r8 g~ \tuplet 3/2 { g8 f ees } f8 g4. |
+		r8 c ees c' bes4 bes | g2~ g8. g16 fis8. g16 | c4~ \tuplet 3/2 { c8 des c } des c4. | r8 g~ \tuplet 3/2 { g8 f ees } f g4. |
 		r8 c ges ees f ees c ees |
 	} \alternative {
 		{
@@ -8464,15 +8636,23 @@ endChords={}
 
 
 \lyricmode {
+
+%% part "A"
 	Now __ you say you're lone -- ly, __ you cry the long night thru; __ well, you can Cry __ Me A Riv --er,
-	Cry __ Me A Riv -- er, I cried a riv -- er o -- ver you. __ Now __ you say you're sor -- ry __
-	for be -- in' so un -- true; __ well, you can Cry __ Me A Riv -- er, Cry __ My A Riv -- er,
-	I cried a riv -- er o -- ver you. You drove me, __ near -- ly drove me, out of my head, __
+	Cry __ Me A Riv -- er, I cried a riv -- er o -- ver you. __
+
+%% part "A"
+	Now __ you say you're sor -- ry __ for be -- in' so un -- true; __ well, you can Cry __ Me A Riv -- er,
+	Cry __ My A Riv -- er, I cried a riv -- er o -- ver you.
+
+%% part "B"
+	You drove me, __ near -- ly drove me, out of my head, __
 	while you __ nev -- er shed a tear. __ Re -- mem -- ber? __ I re -- mem -- ber, all that you said; __
-	told me love was too ple -- be -- ian, told me you were thru with me, an' Now __ you say you love me, __
-	well, just to prove you do, __ Come on, an' Cry Me A Riv -- er, Cry Me A Riv -- er,
-	I cried a riv -- er o -- ver you. __
-	you. __
+	told me love was too ple -- be -- ian, told me you were thru with me, an'
+
+%% part "A"
+	Now __ you say you love me, __ well, just to prove you do, __ Come on, an' Cry Me A Riv -- er,
+	Cry Me A Riv -- er, I cried a riv -- er o -- ver you. __ you. __
 }
 
 	>>
@@ -28715,7 +28895,7 @@ endChords={}
 
 
 
-\tocItem \markup "The Things We Did Last Summer / Sammy Chan & Jule Styne"
+\tocItem \markup "The Things We Did Last Summer / Sammy Chan, Jule Styne"
 
 
 
@@ -28730,7 +28910,7 @@ endChords={}
 			\fill-line { \larger "The Things We Did Last Summer" }
 			\fill-line {
 				""
-				"Lyrics and Music by Sammy Chan & Jule Styne"
+				"Lyrics and Music by Sammy Chan, Jule Styne"
 			}
 			\fill-line {
 				"Slow Ballad"
@@ -31156,7 +31336,7 @@ endChords={}
 
 
 {
-	\tempo Andante 4 = 88
+	\tempo "Andante" 4 = 88
 	\time 4/4
 	\key ees \major
 
