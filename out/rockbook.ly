@@ -246,7 +246,7 @@ endChords={}
 				\fill-line {
 					\huge \bold \concat {
 						"Typesetting copyright: © 2011-"
-						2015
+						2016
 						" Mark Veltzer "
 						"<" \with-url #"mailto:mark.veltzer@gmail.com" mark.veltzer@gmail.com ">"
 					}
@@ -256,13 +256,13 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 167" }
-				\fill-line { \small "Git describe: 167" }
-				\fill-line { \small "Git commits: 1440" }
-				\fill-line { \small "Build date: 16:17:06 17-10-2015" }
+				\fill-line { \small "Git tag: 168" }
+				\fill-line { \small "Git describe: 168" }
+				\fill-line { \small "Git commits: 1455" }
+				\fill-line { \small "Build date: 17:58:33 18-06-2016" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
-				\fill-line { \small "Build kernel: Linux 3.19.0-30-generic" }
+				\fill-line { \small "Build kernel: Linux 4.4.0-24-lowlatency" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
 				\fill-line { \small "Number of tunes: 9" }
 				\null
@@ -383,8 +383,7 @@ endChords={}
 		\mark "Interlude"
 		\startPart
 	%% these chords are silent
-		a1:m7 | a:m7 | a:m7 | a:m7 |
-		a1:m7 | a:m7 | a:m7 | a:m7 |
+		a1*8:m7 |
 	%% these chords are even more silent
 		a2:m7 e4:m7 e:m7/g | a1:m7 |
 		\endPart
@@ -416,8 +415,7 @@ endChords={}
 		\mark "Interlude"
 		\startPart
 	%% these chords are silent
-		a1:m7 | a:m7 | a:m7 | a:m7 |
-		a1:m7 | a:m7 | a:m7 | a:m7 |
+		a1*8:m7 |
 	%% these chords are even more silent
 		a2:m7 e4:m7 e:m7/g | a1:m7 |
 		\endPart

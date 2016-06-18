@@ -246,7 +246,7 @@ endChords={}
 				\fill-line {
 					\huge \bold \concat {
 						"Typesetting copyright: © 2011-"
-						2015
+						2016
 						" Mark Veltzer "
 						"<" \with-url #"mailto:mark.veltzer@gmail.com" mark.veltzer@gmail.com ">"
 					}
@@ -256,13 +256,13 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 167" }
-				\fill-line { \small "Git describe: 167" }
-				\fill-line { \small "Git commits: 1440" }
-				\fill-line { \small "Build date: 16:15:24 17-10-2015" }
+				\fill-line { \small "Git tag: 168" }
+				\fill-line { \small "Git describe: 168" }
+				\fill-line { \small "Git commits: 1455" }
+				\fill-line { \small "Build date: 17:57:52 18-06-2016" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
-				\fill-line { \small "Build kernel: Linux 3.19.0-30-generic" }
+				\fill-line { \small "Build kernel: Linux 4.4.0-24-lowlatency" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
 				\fill-line { \small "Number of tunes: 149" }
 				\null
@@ -28500,7 +28500,7 @@ endChords={}
 		\column {
 			\huge \larger \bold
 			\fill-line { \larger "The Nearness Of You" }
-			\fill-line { \large \smaller \bold \larger "from the Paramount Picture 'Romance in the Dark'" }
+			\fill-line { \large \smaller \bold \larger "From the Paramount Picture 'Romance in the Dark'" }
 			\fill-line {
 				"Lyrics by Ned Washington"
 				"Music by Hoagy Carmichael"
