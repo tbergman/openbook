@@ -14,7 +14,7 @@
 
 % lets define a variable to hold the formatted build date (man 3 strftime):
 %date=#(strftime "%T %d-%m-%Y" (localtime (current-time)))
-%lilyver=#(lilypond-version)
+%lilypond_version=#(lilypond-version)
 
 % setting instruments for midi generation (bah - this doesn't work...)
 %=====================================================================
@@ -256,13 +256,13 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 169" }
-				\fill-line { \small "Git describe: 169-5-g5f2f9ed" }
-				\fill-line { \small "Git commits: 1462" }
-				\fill-line { \small "Build date: 00:53:13 24-07-2016" }
+				\fill-line { \small "Git tag: 170" }
+				\fill-line { \small "Git describe: 170-12-g9387ea5" }
+				\fill-line { \small "Git commits: 1489" }
+				\fill-line { \small "Build date: 09:11:55 23-09-2016" }
 				\fill-line { \small "Build user: mark" }
 				\fill-line { \small "Build host: fermat" }
-				\fill-line { \small "Build kernel: Linux 4.4.0-31-lowlatency" }
+				\fill-line { \small "Build kernel: Linux 4.4.0-36-generic" }
 				\fill-line { \small "Lilypond version: 2.18.2" }
 				\fill-line { \small "Number of tunes: 149" }
 				\null
